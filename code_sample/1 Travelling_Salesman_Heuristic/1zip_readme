@@ -1,0 +1,18 @@
+# 1zip_readme
+
+a) joinspan_heuristic would consider a complete graph and try to find all feasible path from the source vertex chosen , traversing all the nodes and returning back to the source vertex. 
+
+b) The complete graph is sent to euler_path method that takes two arguments Graph and Starting_Vertex.
+
+c) get_ST is external program that would make a spanning tree out of a complete graph. This takes up two arguments Graph and Starting_Vertex.Thus this Spanning Tree is duplicated and joined and this would create an Euler Path.
+
+d) This Euler path would consists Vertex name (a as well as a' denoting the vertex of duplicate graph). To consider a better path so that after wards we can assign weight to each connection. Reassign a' to a and eliminate subtours of Length 1 (like ['a','a']).
+
+e) Now two_optvariant method takes three arguments euler path , no of possible tours , and no_of_vertices (denoted as length variable).
+
+f) This would return some feasible solutions (if n vertices n-1! possible tours). Now find the optimal tour.
+
+g) Consider all tour assign weights , find total weight and add to the last of the path list and sort the list from back (last element total cost calculated) using python sorted method.
+
+h) The tour which is at the first position of the sorted list would be the optimal tour and plotted using sage plot method and saved to an jpg file using sage save method.
+

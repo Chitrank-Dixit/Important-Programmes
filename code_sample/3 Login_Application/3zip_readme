@@ -1,0 +1,10 @@
+# 3zip_readme
+
+a) While Login using Air_Route_Finder takes Username and Password if found then we can enter the application else not.
+
+b) When forgot password is clicked the User can send the password to his registered mail but Username and Email should match otherwise error is generated.
+
+c) Using Register an Account user can Register with Username , Password and Email and Thus The password is sent to the mail Specified.
+
+d) Here send_maildef won't work as there a password of registered email should be specified first to log in using that Email and smtp server would change with the change in Email provider.
+

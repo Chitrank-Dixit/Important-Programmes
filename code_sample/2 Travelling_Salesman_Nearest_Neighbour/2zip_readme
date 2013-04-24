@@ -1,0 +1,10 @@
+# 2zip_readme
+
+a) Nearest_Neighbour.py would take as argument a list of cities or vertices that it would find possible combinations among those vertices and form a link (represented by tuple (a,b)).
+
+b) This list of tuple containing connections are assigned weight using method create_graph(connections) that takes up the graph and one by one input the tuple in make_link that would generate randome weight and assign.
+
+c) Now this created graph is supplied to method feasible_tours that takes created_graph and starting_vertex. 
+
+d) using get_MST method a spanning tree is obtained with the first vertex supplied as start_vetex and thus tours are found.
+
