@@ -1,5 +1,5 @@
-On-Python
+Important-Programmes
 =========
 
-This is the My Python Repository ranging Implementation from Fundamental Algorithm to Artificial Intelligence 
-and Swarm Intelligence.
+The following repository consists of all the Fundamental Algorithm to Artificial Intelligence 
+and Swarm Intelligence based Algorithm implementation. The repository also consists the programs from various programming languages.
